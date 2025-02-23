@@ -32,11 +32,7 @@ SECRET_KEY = "django-insecure-i6wp$67)m^kw%4!$e&f8_*ldfleu6$@!#34l$s%@5+ir!(x$tr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "127.0.0.1",  # Localhost (IP)
-    "localhost",  # Localhost (name)
-    "https://book-store-backend-ompg.vercel.app/",
-]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -73,7 +69,7 @@ MIDDLEWARE = [
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CORS_ALLOWED_ORIGINS = ["https://book-store-backend-ompg.vercel.app/"]
+CORS_ALLOWED_ORIGINS = ["https://book-store-backend-ompg.vercel.app"]
 
 ROOT_URLCONF = "bookStore_backend.urls"
 
