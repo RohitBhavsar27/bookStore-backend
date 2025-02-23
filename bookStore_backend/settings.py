@@ -73,7 +73,7 @@ MIDDLEWARE = [
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = ["https://book-store-backend-ompg.vercel.app/"]
 
 ROOT_URLCONF = "bookStore_backend.urls"
 
