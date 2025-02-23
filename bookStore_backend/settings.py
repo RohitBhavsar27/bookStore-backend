@@ -33,9 +33,9 @@ SECRET_KEY = "django-insecure-i6wp$67)m^kw%4!$e&f8_*ldfleu6$@!#34l$s%@5+ir!(x$tr
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",  # Localhost (IP)
-    "localhost",  # Localhost (name)
-    "https://book-store-backend-alpha-three.vercel.app",
+    # "127.0.0.1",  # Localhost (IP)
+    # "localhost",  # Localhost (name)
+    ".vercel.app",
 ]
 
 
@@ -74,8 +74,8 @@ MIDDLEWARE = [
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:4200",
-    "https://book-store-backend-alpha-three.vercel.app",
+    # "http://localhost:4200",
+    ".vercel.app",
 ]
 
 ROOT_URLCONF = "bookStore_backend.urls"
@@ -138,8 +138,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
