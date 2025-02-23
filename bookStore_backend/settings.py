@@ -35,7 +35,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "127.0.0.1",  # Localhost (IP)
     "localhost",  # Localhost (name)
-    "https://book-store-backend-ompg.vercel.app",
+    "https://book-store-backend-ompg.vercel.app/",
 ]
 
 
