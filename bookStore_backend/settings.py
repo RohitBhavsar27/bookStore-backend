@@ -35,7 +35,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "127.0.0.1",  # Localhost (IP)
     "localhost",  # Localhost (name)
-    "https://book-store-backend-5bld.vercel.app",
+    ".vercel.app",
 ]
 
 
@@ -73,10 +73,7 @@ MIDDLEWARE = [
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:4200",
-    "https://book-store-backend-5bld.vercel.app",
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = "bookStore_backend.urls"
 
