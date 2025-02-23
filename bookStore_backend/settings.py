@@ -35,7 +35,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "127.0.0.1",  # Localhost (IP)
     "localhost",  # Localhost (name)
-    ".vercel.app",
+    "https://book-store-backend-5bld.vercel.app",
 ]
 
 
