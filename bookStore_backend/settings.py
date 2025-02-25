@@ -70,8 +70,8 @@ MIDDLEWARE = [
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:4200/",
-    "https://book-store-client-sable.vercel.app/",
+    "http://localhost:4200",
+    "https://book-store-client-sable.vercel.app",
 ]
 
 ROOT_URLCONF = "bookStore_backend.urls"
